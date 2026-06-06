@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rejoins l'Équipe Lucky Jet</title>
+    <style>
+        /* Réinitialisation de base */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #0f172a; /* Fond bleu très sombre */
+            color: #f8fafc;
+            line-height: 1.6;
+        }
+
+        /* En-tête */
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+            background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+            border-bottom: 3px solid #3b82f6; /* Bordure bleue lumineuse */
+        }
+
+        .hero h1 {
+            font-size: 2.2rem;
+            color: #38bdf8;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 1.1rem;
+            margin-bottom: 30px;
+            color: #cbd5e1;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: #3b82f6;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            font-size: 1.1rem;
+            transition: background 0.3s ease;
+            box-shadow: 0 4px 15px rgba(59, 130, 246, 0.4);
+        }
+
+        .cta-button:hover {
+            background-color: #2563eb;
+        }
+
+        /* Sections globales */
+        section {
+            padding: 50px 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        h2 {
+            color: #38bdf8;
+            margin-bottom: 30px;
+            text-align: center;
+            font-size: 1.8rem;
+        }
+
+        /* Cartes d'information */
+        .info-section .card {
+            background: #1e293b;
+            padding: 25px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            border-left: 5px solid #3b82f6;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+        }
+
+        .info-section h3 {
+            margin-bottom: 10px;
+            color: #f1f5f9;
+        }
+
+        /* Guide par étapes */
+        .guide-section ol {
+            background: #1e293b;
+            padding: 30px 30px 30px 50px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+        }
+
+        .guide-section li {
+            margin-bottom: 15px;
+            font-size: 1.05rem;
+        }
+
+        .guide-section li strong {
+            color: #38bdf8;
+        }
+
+        /* Section VIP */
+        .vip-section {
+            background: #1e293b;
+            border-radius: 15px;
+            text-align: center;
+            margin-top: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            border: 1px solid #334155;
+            padding-bottom: 40px;
+        }
+
+        .pricing h3 {
+            font-size: 1.6rem;
+            color: #22c55e; /* Vert fluo pour le prix */
+            margin: 25px 0;
+            padding: 15px 30px;
+            background: rgba(34, 197, 94, 0.1);
+            border-radius: 8px;
+            display: inline-block;
+            border: 1px solid rgba(34, 197, 94, 0.3);
+        }
+
+        /* Instructions de paiement */
+        .payment-instructions {
+            text-align: left;
+            margin-top: 20px;
+            padding: 0 20px;
+        }
+
+        .payment-instructions p {
+            text-align: center;
+        }
+
+        .numbers {
+            list-style: none;
+            margin: 20px auto;
+            padding: 20px;
+            background: #0f172a;
+            border-radius: 8px;
+            max-width: 400px;
+            border: 1px dashed #475569;
+        }
+
+        .numbers li {
+            margin-bottom: 12px;
+            font-size: 1.1rem;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .numbers li:last-child {
+            margin-bottom: 0;
+        }
+
+        .numbers strong {
+            color: #38bdf8;
+        }
+
+        /* Bouton WhatsApp */
+        .whatsapp-btn {
+            display: block;
+            background-color: #25D366;
+            color: white;
+            text-align: center;
+            padding: 18px 20px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            font-size: 1.1rem;
+            margin: 30px auto 0;
+            max-width: 350px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(37, 211, 102, 0.4);
+        }
+
+        .whatsapp-btn:hover {
+            background-color: #1ebc59;
+            transform: translateY(-2px);
+        }
+
+        /* Pied de page */
+        footer {
+            text-align: center;
+            padding: 30px 20px;
+            color: #64748b;
+            font-size: 0.9rem;
+            background-color: #0f172a;
+        }
+    </style>
+</head>
+<body>
+    <header class="hero">
+        <h1>Fais Décoller Tes Gains 🚀</h1>
+        <p>Toutes les infos pour jouer avec moi en direct et rejoindre le groupe privé.</p>
+        <a href="#vip" class="cta-button">Accéder au Groupe VIP</a>
+    </header>
+
+    <section class="info-section">
+        <h2>C'est quoi tout ça ?</h2>
+        <div class="card">
+            <h3>La Plateforme : 1win</h3>
+            <p>C'est l'une des plateformes les plus fluides pour jouer. L'inscription est rapide et les dépôts ou retraits se font très facilement via Mobile Money depuis ton téléphone.</p>
+        </div>
+        <div class="card">
+            <h3>Le Jeu : Lucky Jet</h3>
+            <p>Mon jeu de prédilection ! Le principe est simple : le multiplicateur monte en flèche, et il faut encaisser ses gains avant que le personnage ne s'envole. Des parties ultra-rapides et 100% adrénaline.</p>
+        </div>
+    </section>
+
+    <section class="guide-section">
+        <h2>Comment commencer ?</h2>
+        <ol>
+            <li><strong>L'Inscription :</strong> Crée ton compte sur 1win (ça prend littéralement 2 minutes).</li>
+            <li><strong>Le Rechargement :</strong> Fais ton premier dépôt via tes réseaux locaux (Wave, Orange, MTN...).</li>
+            <li><strong>L'Action :</strong> Lance le jeu Lucky Jet et rejoins mes lives pour qu'on coordonne nos retraits !</li>
+        </ol>
+    </section>
+
+    <section id="vip" class="vip-section">
+        <h2>Le Groupe Privé VIP 👑</h2>
+        <p>Tu veux mes analyses, mes signaux et jouer en équipe sans rater une session ? Rejoins le groupe WhatsApp fermé.</p>
+        
+        <div class="pricing">
+            <h3>2000 FCFA / 2 Semaines</h3>
+        </div>
+
+        <div class="payment-instructions">
+            <p><strong>Étape 1 : Fais ton dépôt sur l'un de ces numéros :</strong></p>
+            <ul class="numbers">
+                <li>Wave : <strong>[Ton Numéro Wave]</strong></li>
+                <li>Orange Money : <strong>[Ton Numéro Orange]</strong></li>
+                <li>MTN Money : <strong>[Ton Numéro MTN]</strong></li>
+            </ul>
+            
+            <p><strong>Étape 2 : Envoie-moi la capture d'écran du paiement :</strong></p>
+            
+            <!-- Remplace "2250000000000" par ton vrai numéro (indicatif + numéro sans espace) -->
+            <a href="https://wa.me/2250000000000?text=Salut%20Romuald,%20je%20viens%20de%20payer%20mes%202000%20FCFA%20pour%20le%20groupe%20VIP.%20Voici%20ma%20capture%20d'écran%20:" class="whatsapp-btn" target="_blank">
+                📲 Envoyer la capture sur WhatsApp
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 - L'équipe Lucky Jet. Jouez de manière responsable.</p>
+    </footer>
+</body>
+</html>
